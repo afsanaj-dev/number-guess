@@ -1,0 +1,92 @@
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.game{
+    position: relative;
+    text-align: center;
+}
+.image{
+    max-height: 100%;
+}
+button{
+    background: transparent;
+    font-size: 36px;
+    font-family: 'Habibi', serif;
+    font-weight: 700;
+    color: #242F47;
+    position: absolute;
+    bottom: 82px;
+    left: 45%;
+    border-style: none;
+}
+.player1{
+    background: linear-gradient(rgba(5, 5, 5, 0.75),rgba(5, 5, 5, 0.705)) ,url(../images/pl.jpg) no-repeat center/cover;
+    padding: 180px 0;
+    display: none;
+    text-align: center;
+}
+.player1 h1,.player2 h1{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Gupter', serif;
+    color: #fff;
+}
+.player1 h2,.player2 h2{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Habibi', serif;
+    color: #fff;
+}
+.player1 input,.player2 input{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.player1 a,.player2 a{
+    padding: 6px 15px;
+    border-radius: 10px;
+    background: #e39919;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Habibi', serif;
+    color: #fff;
+    text-decoration: none;
+}
+.error{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Habibi', serif;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.player2{
+    background: linear-gradient(rgba(5, 5, 5, 0.537),rgba(5, 5, 5, 0.792)) ,url(../images/pl2.jpg) no-repeat center/cover;
+    padding: 180px 0;
+    display: none;
+    text-align: center;
+}
+.win{
+    background: linear-gradient(rgba(5, 5, 5, 0.121),rgba(5, 5, 5, 0.135)) ,url(../images/win.jpg) no-repeat center/cover;
+    padding: 250px 0;
+    display: none;
+    text-align: center;
+}
+.win h1,.win2 h1{
+    font-size: 85px;
+    font-weight: 700;
+    font-family: 'Gupter', serif;
+}
+.win2 h1{
+    color: #1544f0;
+}
+.win2{
+    background: linear-gradient(rgba(5, 5, 5, 0.215),rgba(5, 5, 5, 0.292)) ,url(../images/win2.jpg) no-repeat center/cover;
+    padding: 260px 0;
+    display: none;
+    text-align: center;
+}
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Gupter', serif;
+font-family: 'Habibi', serif; */
